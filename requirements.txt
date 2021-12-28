@@ -10,7 +10,7 @@ numpy
 Pillow
 python-dateutil
 python-dotenv
-tensorflow==2.5.0rc0
+tensorflow-cpu
 pytz
 six
 Werkzeug
