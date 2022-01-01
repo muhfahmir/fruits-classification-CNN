@@ -10,21 +10,9 @@
 </head>
 
 <body>
-    <section class="
-                flex
-                justify-center
-                items-center
-                w-screen
-                h-screen
-                bg-sky-500
+    <section class=" flex justify-center items-center w-screen h-screen bg-sky-500
             ">
-        <main class="
-                    flex flex-col
-                    justify-center
-                    items-center
-                    p-16
-                    bg-white
-                    rounded-lg
+        <main class=" flex flex-col justify-center items-center p-16 bg-white rounded-lg
                 ">
             <h1 class="text-3xl font-bold">Predict Fruits</h1>
 
@@ -32,15 +20,7 @@
             <img src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
                 class="mt-8 mb-4 h-48 border-8 border-gray-200 rounded-md" />
             {% else %}
-            <div class="
-                        flex
-                        justify-center
-                        items-center
-                        my-8
-                        w-48
-                        h-48
-                        border-8 border-gray-200
-                        rounded-md
+            <div class=" flex justify-center items-center my-8 w-48 h-48 border-8 border-gray-200 rounded-md
                     ">
                 <p class="text-center">
                     Masukkan gambar
@@ -51,12 +31,7 @@
             {% endif %}
 
             <form method="post" enctype="multipart/form-data" class="flex flex-col">
-                <input type="file" name="imageFile" class="
-                            mb-4
-                            p-4
-                            border-8 border-gray-200
-                            rounded-md
-                            bg-gray-100
+                <input type="file" name="imageFile" class=" mb-4 p-4 border-8 border-gray-200 rounded-md bg-gray-100
                         " />
                 <button type="submit" class="p-4 bg-sky-500 text-white rounded-md font-bold">
                     Prediksi Gambar
