@@ -2,6 +2,7 @@
 
 ### Deskripsi
 Pada proyek ini akan mengklasifikasikan buah dengan menggunakan data citra buah yang diambil dari platform Kaggle ([_Dataset_](https://www.kaggle.com/chrisfilo/fruit-recognition/)). Proyek ini menggunakan model Convolutional Neural Network (CNN) dengan optimizer adam untuk mencari nilai akurasi pada setiap buah serta secara kesuluruhan buah yang ada.
+
 Jenis-jenis buah yang disediakan pada dataset sebagai berikut:
 - Apple
 - Banana
@@ -24,6 +25,7 @@ Pada proyek ini hanya berfokus pada buah Apple, Carambola, Plum, dan Tomatoes ya
 
 ## Dataset yang digunakan
 Data Fruits Classification CNN diambil dari dataset Kaggle yang berisi data citra sebanyak 44406. Namun pada proyek ini hanya menggunakan 11573 data citra saja.
+
 Jumlah data citra pada tiap jenis buah yang digunakan:
 
 | Fruit     | Jumlah |
