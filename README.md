@@ -108,4 +108,4 @@ Classification Report:
 - Github: [@muhfahmir](https://github.com/muhfahmir)
 
 ## License
-Copyright © 2021 [Muhamad Fahmi Rahmatullah] (https://github.com/muhfahmir).
+Copyright © 2021 [Muhamad Fahmi Rahmatullah](https://github.com/muhfahmir).
