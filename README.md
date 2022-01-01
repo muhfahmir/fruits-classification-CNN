@@ -1,5 +1,19 @@
 # Fruits Classification CNN [Open Apps](https://fruits-classification073-cnn.herokuapp.com/)
 
+### Prerequites
+- Python 3.9
+- Tensorflow
+
+## How to Use
+### Install
+```
+!pip install -r requirements.txt
+```
+### Usage
+```
+Flask run 
+```
+
 ### Deskripsi
 Pada proyek ini akan mengklasifikasikan buah dengan menggunakan data citra buah yang diambil dari platform Kaggle ([_Dataset_](https://www.kaggle.com/chrisfilo/fruit-recognition/)). Proyek ini menggunakan model Convolutional Neural Network (CNN) dengan optimizer adam untuk mencari nilai akurasi pada setiap buah serta secara kesuluruhan buah yang ada.
 
@@ -87,4 +101,11 @@ Classification Report:
 | macro avg    | 0.98      | 0.99   | 0.98     | 1160    |
 | weighted avg | 0.98      | 0.98   | 0.98     | 1160    |
 
+## Author
+👤 **Muhamad Fahmi Rahmatullah**
+- LinkedIn: [muhfahmir](https://www.linkedin.com/in/muhamad-fahmi-rahmatullah-4465b31a4/)
+- Instagram: [@fahmirahmatt](https://www.instagram.com/fahmirahmatt/)
+- Github: [@muhfahmir](https://github.com/muhfahmir)
 
+## License
+Copyright © 2021 [Muhamad Fahmi Rahmatullah] (https://github.com/muhfahmir).
