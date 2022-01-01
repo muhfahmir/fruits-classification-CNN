@@ -37,26 +37,52 @@ Jumlah data citra pada tiap jenis buah yang digunakan:
 1. Resize gambar menjadi  150x150 Pixel
 2. Normalisasi Gambar
 3. Splitting data
-  - Data training (80%) : 9257
-  - Data testing (10%) : 1156
-  - Data validation (10%) : 1160
+   - Data training (80%): 9257
+   - Data testing (10%): 1156
+   - Data validation (10%): 1160
 4. Data Augmentation
-  - rescale
-  - shear_range
-  - zoom_range
+   - rescale = 1./255,
+   - shear_range = 0.2
+   - zoom_range = 0.2
 
 ### Arsitektur Model
 1. Menggunakan 3 Feature Extraction Layer 
-  - Convolution
-  - Pooling
+   - Convolution
+   - Pooling
 2. Flattening
 3. Full Connection
 
 ### Modelling
 1. Model CNN yang telah dibuat kemudian di optimizer menggunakan Adam
 2. Hasil Training Model
-  - Params : 
-    * steps_per_epoch = 10
-    * epochs= 120
-  - Best Score : 0.9810
+   - Params: 
+     * steps_per_epoch = 10
+     * epochs= 120
+   - Best Score Accuracy: 0.9810
+
+### Evaluate Model
+Confussion Matrix:
+
+
+Accuracy:
+| Label     | Accuracy |
+| --------- | -------- |
+| Apple     | 97.02    |
+| Carambola | 100.00   |
+| Plum      | 100.00   |
+| Tomatoes  | 97.25    |
+| Total     | 98.00    |
+
+Classification Report:
+| Fruit        | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|---------|
+| Apple        | 0.99      | 0.97   | 0.98     | 503     |
+| Carambola    | 1.00      | 1.00   | 1.00     | 208     |
+| Plum         | 1.00      | 1.00   | 1.00     | 231     |
+| Tomatoes     | 0.93      | 0.97   | 0.95     | 218     |
+|              |           |        |          |         |
+| accuracy     |           |        | 0.98     | 1160    |
+| macro avg    | 0.98      | 0.99   | 0.98     | 1160    |
+| weighted avg | 0.98      | 0.98   | 0.98     | 1160    |
+
 
