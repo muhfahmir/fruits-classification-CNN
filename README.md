@@ -62,7 +62,7 @@ Jumlah data citra pada tiap jenis buah yang digunakan:
 
 ### Evaluate Model
 Confussion Matrix:
-
+![Confussion Matrix](https://github.com/muhfahmir/fruits-classification-CNN/blob/master/images/evaluate/cm.png?raw=true)
 
 Accuracy:
 | Label     | Accuracy |
